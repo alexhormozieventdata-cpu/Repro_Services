@@ -1,0 +1,122 @@
+export const portfolioProjects = [
+  {
+    id: 1,
+    title: '3D Frontlit Acrylic Signage - Luxury Apparel',
+    category: 'Signage & LED',
+    categoryKey: 'signage',
+    location: 'Boring Road, Patna',
+    year: '2024',
+    client: 'Royal Threads Fashion',
+    dimensions: '28 ft x 5 ft',
+    materials: '3mm Cast Acrylic, Black Aluminum Returns, IP67 Samsung Warm LED, Aludecor ACP Substrate',
+    description: 'Designed, routed, and installed an eye-catching storefront LED letter display on a customized glossy navy blue ACP background panel.',
+    image: 'https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=900&q=80',
+    tags: ['3D Letters', 'ACP Cladding', 'LED Illumination']
+  },
+  {
+    id: 2,
+    title: 'Corporate Identity & Luxury Business Cards',
+    category: 'Printing',
+    categoryKey: 'printing',
+    location: 'Bailey Road, Patna',
+    year: '2024',
+    client: 'Apex Infra Developers',
+    dimensions: 'Standard 89mm x 54mm + A4 Folders',
+    materials: '350 GSM Imported Velvet Touch Card, Metallic Gold Hot Foil Stamping, Spot Raised UV',
+    description: 'Complete high-profile business stationery set for senior real estate directors, delivering high tactile luxury and distinct branding.',
+    image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=900&q=80',
+    tags: ['Gold Foil', 'Velvet Finish', 'Corporate Suite']
+  },
+  {
+    id: 3,
+    title: 'High-Impact Transit Hoarding Campaign',
+    category: 'Advertising & Outdoor',
+    categoryKey: 'advertising',
+    location: 'Dak Bunglow Chauraha, Patna',
+    year: '2023',
+    client: 'Zenith Career Institute',
+    dimensions: '40 ft x 20 ft',
+    materials: 'Front-lit Star Heavy Flex, 6x 150W Floodlights, Structural Steel Frame',
+    description: 'Prime outdoor billboard campaign that generated over 350,000 daily visual impressions throughout the peak educational admission cycle.',
+    image: 'https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80',
+    tags: ['Outdoor Hoarding', 'Mass Advertising', 'High Visibility']
+  },
+  {
+    id: 4,
+    title: 'Exhibition Stall Fabrication & Graphics',
+    category: 'Advertising & Outdoor',
+    categoryKey: 'advertising',
+    location: 'Gyan Bhawan, Patna',
+    year: '2024',
+    client: 'Bihar Agro Tech Expo',
+    dimensions: '6m x 4m (3-Side Open)',
+    materials: 'Wooden Plywood Structure, Matte Vinyl Cladding, Backlit Fabric Lightbox, Acrylic Product Display Pods',
+    description: 'Turnkey exhibition pavilion fabrication including customized lighting, meeting lounge graphics, and illuminated logo centerpiece.',
+    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80',
+    tags: ['Exhibition Stall', 'Fabrication', 'Gyan Bhawan']
+  },
+  {
+    id: 5,
+    title: 'Retail Storefront Elevation & Glow Signboards',
+    category: 'Signage & LED',
+    categoryKey: 'signage',
+    location: 'Kankarbagh Main Road, Patna',
+    year: '2023',
+    client: 'Sanjeevani Multispeciality Pharmacy',
+    dimensions: '35 ft x 4.5 ft',
+    materials: 'Alcozone Sparkle White ACP, Red & Green Acrylic 3D Emblems, Day-Night High Brightness LEDs',
+    description: 'Prominent 24/7 visible facade transformation for a leading medical store with illuminated medical cross icon visible from 300 meters.',
+    image: 'https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=900&q=80',
+    tags: ['Pharmacy Signage', 'Glow Signs', 'ACP Elevation']
+  },
+  {
+    id: 6,
+    title: 'Multi-Page Gloss Product Catalogues',
+    category: 'Printing',
+    categoryKey: 'printing',
+    location: 'Patliputra Industrial Area, Patna',
+    year: '2024',
+    client: 'Prism Electricals & Appliances',
+    dimensions: 'A4 Size (48 Pages Stitched)',
+    materials: 'Cover: 300 GSM Gloss Laminated Art Card; Inner: 170 GSM Sinar Art Paper with Wire-O Stitching',
+    description: '10,000 copies of comprehensive distributor catalogues with precise electrical technical diagrams and rich color product photography.',
+    image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=900&q=80',
+    tags: ['Product Catalogues', 'Offset Printing', 'Perfect Binding']
+  },
+  {
+    id: 7,
+    title: 'Commercial Fleet Vinyl Graphics',
+    category: 'Retail & Fleet Branding',
+    categoryKey: 'retail',
+    location: 'New Bypass, Patna',
+    year: '2023',
+    client: 'FreshBite Logistics Fleet',
+    dimensions: 'Full Wrap across 12 Tata Ace Vehicles',
+    materials: 'Avery Dennison Cast Vinyl + High Gloss UV Resistant Lamination',
+    description: 'Consistent, durable mobile brand visibility across Patna delivery vehicles with zero bubble installation and 3-year vinyl endurance.',
+    image: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=900&q=80',
+    tags: ['Fleet Graphics', 'Vehicle Wraps', 'Cast Vinyl']
+  },
+  {
+    id: 8,
+    title: 'Custom Neon Flex Ambient Decor',
+    category: 'Signage & LED',
+    categoryKey: 'signage',
+    location: 'Patna One Mall / Fraser Road',
+    year: '2024',
+    client: 'Cafe Roasted Beans',
+    dimensions: '6 ft x 3 ft',
+    materials: '8mm Silicone LED Warm Amber & Cyan Neon Flex, Laser Cut 5mm Acrylic Backer with Stand-offs',
+    description: 'Bespoke custom typography sign creating a premier photo-wall opportunity for customers, driving viral social media check-ins.',
+    image: 'https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=900&q=80',
+    tags: ['Neon Sign', 'Interior Decor', 'Cafe Branding']
+  }
+];
+
+export const portfolioCategories = [
+  { key: 'all', label: 'All Projects' },
+  { key: 'printing', label: 'Printing Solutions' },
+  { key: 'signage', label: 'Signage & 3D LED' },
+  { key: 'advertising', label: 'Advertising & Outdoor' },
+  { key: 'retail', label: 'Retail & Fleet Branding' }
+];
