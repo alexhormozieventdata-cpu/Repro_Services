@@ -63,11 +63,7 @@ export default function PrintingPage({ setCurrentPage, setBookingPrefill }) {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {printingServices.map((service) => (
-            <ServiceCard 
-              key={service.id} 
-              service={service} 
-              onBook={handleBookService} 
-            />
+            <ServiceCard key={service.id} service={service} onBook={handleBookService} />
           ))}
         </div>
       </section>

@@ -4,6 +4,9 @@ import {
   Printer, Sparkles, Megaphone, Clock, MapPin, Phone,
   TrendingUp, Users, CheckCheck
 } from 'lucide-react';
+import SliderMain from '../components/SliderMain';
+import ServiceCategory from '../components/ServiceCategory';
+import ShopByCategory from '../components/ShopByCategory';
 import QuoteCalculator from '../components/QuoteCalculator';
 import { printingServices, brandingSignageServices, advertisingServices } from '../data/servicesData';
 import { portfolioProjects } from '../data/portfolioData';
@@ -166,6 +169,20 @@ export default function HomePage({ setCurrentPage, setSelectedProject, setBookin
           </div>
         </div>
       </section>
+
+      <SliderMain onProjectSelect={setSelectedProject} />
+      <ShopByCategory onNavigate={setCurrentPage} />
+      <ServiceCategory
+        onGetQuote={(service) => {
+          setBookingPrefill({
+            serviceName: service.title,
+            category: 'Printing',
+            specs: service.specs?.[0] || '',
+            productType: service.id === 'business-cards' ? 'cards' : 'brochures',
+          });
+          setCurrentPage('booking');
+        }}
+      />
 
       {/* 2. Interactive Instant Estimator Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
